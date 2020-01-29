@@ -21,9 +21,10 @@ public class Calculator {
     double fairy[] = {1, 2, 1, .5, 1, 1, 1, 1, .5, .5, 1, 1, 1, 1, 1, 2, 2, 1};
     double typingArray[][] = {normal, fighting, flying, poison, ground, rock, bug, ghost, steel, fire,
             water, grass, electric, psychic, ice, dragon, dark, fairy};
-
+//nathan eel did this
     public int getIntFromType(String type) {
         int answer = 0;
+        
         for (int i = 0; i < typings.length; i++) {
             if (type.equalsIgnoreCase(typings[i])) {
                 answer = i;
