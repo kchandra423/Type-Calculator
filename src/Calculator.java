@@ -39,8 +39,13 @@ public class Calculator {
 
         public double modifier(int attackType, int defendType1, int defendType2) {
             double answer=0;
+            if(defendType2<0) {
             answer = typingArray[attackType][defendType1]*typingArray[attackType][defendType2];
-            return answer;
+            return answer;}
+            else {
+            	answer = typingArray[attackType][defendType1];
+            	return answer;
+            }
         }
 
 
