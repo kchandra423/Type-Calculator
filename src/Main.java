@@ -15,3 +15,4 @@ ez.print("Enter your first type of the defending pokemon");
         ez.print("Your attack damage will be multiplied by this much\n"+mod);
     }
 }
+//hhh
