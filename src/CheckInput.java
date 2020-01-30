@@ -30,7 +30,7 @@ public class CheckInput {
 		}
 		return output;
 	}
-	
+
 	public int checkIntRange(String message, int lowPar, int highPar) { //Method that checks to make sure that the input is an integer in a certain range
 		int output = 0;
 		boolean check = false;
